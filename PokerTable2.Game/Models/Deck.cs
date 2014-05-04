@@ -10,7 +10,7 @@ namespace PokerTable2.Game.Models
     {
         public List<Card> Cards { get; set; }
 
-        public Deck()
+        internal Deck()
         {
             this.Cards = new List<Card>();
         }

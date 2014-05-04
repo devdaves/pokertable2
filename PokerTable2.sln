@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTable2.Game", "PokerTable2.Game\PokerTable2.Game.csproj", "{78F9D244-9F05-4196-9B44-FD3CC2D5CF7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTable2.Game.Test", "PokerTable2.Game.Test\PokerTable2.Game.Test.csproj", "{42DD96F5-F66C-4B6E-A389-04076524CB67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTable2.Game.Tests", "PokerTable2.Game.Test\PokerTable2.Game.Tests.csproj", "{42DD96F5-F66C-4B6E-A389-04076524CB67}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTable2.Web", "PokerTable2.Web\PokerTable2.Web.csproj", "{DD8F12F1-5199-45DB-8472-1398BFAFCA1F}"
 EndProject

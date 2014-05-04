@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PokerTable2.Game.Factories;
 using PokerTable2.Game.Models;
 
-namespace PokerTable2.Game.Test.Factories
+namespace PokerTable2.Game.Tests.Factories
 {
     [TestClass]
     public class DeckFactoryTests

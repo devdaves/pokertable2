@@ -28,7 +28,7 @@ namespace PokerTable2.Game.Models
             get { return this.GetName(); }
         }
 
-        public Card(int value, Suites suit)
+        internal Card(int value, Suites suit)
         {
             this.Value = value;
             this.Suit = suit;

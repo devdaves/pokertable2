@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PokerTable2.Game.Test
+namespace PokerTable2.Game.Tests
 {
     public static class Constants
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PokerTable2.Game.Models;
 
-namespace PokerTable2.Game.Test.Models
+namespace PokerTable2.Game.Tests.Models
 {
     [TestClass]
     public class CardTests
