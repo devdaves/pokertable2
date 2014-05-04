@@ -52,7 +52,9 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="Factories\CardFactoryTests.cs" />
+    <Compile Include="Factories\DeckFactoryTests.cs" />
     <Compile Include="Models\CardTests.cs" />
+    <Compile Include="Models\DeckTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -59,38 +59,38 @@ namespace PokerTable2.Game.Test.Models
         }
 
         [TestClass]
-        public class SuiteValue : CardTests
+        public class SuitValue : CardTests
         {
             [TestMethod, TestCategory(Constants.Bvt)]
             public void Hearts_Returns_H()
             {
-                var expectedSuiteValue = "H";
+                var expectedSuitValue = "H";
                 Card card = new Card(1, Card.Suites.Hearts);
-                Assert.AreEqual(expectedSuiteValue, card.SuiteValue);
+                Assert.AreEqual(expectedSuitValue, card.SuitValue);
             }
 
             [TestMethod, TestCategory(Constants.Bvt)]
             public void Clubs_Returns_C()
             {
-                var expectedSuiteValue = "C";
+                var expectedSuitValue = "C";
                 Card card = new Card(1, Card.Suites.Clubs);
-                Assert.AreEqual(expectedSuiteValue, card.SuiteValue);
+                Assert.AreEqual(expectedSuitValue, card.SuitValue);
             }
 
             [TestMethod, TestCategory(Constants.Bvt)]
             public void Diamonds_Returns_D()
             {
-                var expectedSuiteValue = "D";
+                var expectedSuitValue = "D";
                 Card card = new Card(1, Card.Suites.Diamonds);
-                Assert.AreEqual(expectedSuiteValue, card.SuiteValue);
+                Assert.AreEqual(expectedSuitValue, card.SuitValue);
             }
 
             [TestMethod, TestCategory(Constants.Bvt)]
             public void Spades_Returns_S()
             {
-                var expectedSuiteValue = "S";
+                var expectedSuitValue = "S";
                 Card card = new Card(1, Card.Suites.Spades);
-                Assert.AreEqual(expectedSuiteValue, card.SuiteValue);
+                Assert.AreEqual(expectedSuitValue, card.SuitValue);
             }
         }
 

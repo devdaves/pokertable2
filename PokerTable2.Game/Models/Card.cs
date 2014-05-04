@@ -12,14 +12,14 @@ namespace PokerTable2.Game.Models
 
         public int Value { get; set; }
 
-        public Suites Suite { get; set; }
+        public Suites Suit { get; set; }
 
         public string StringValue
         {
             get { return this.GetStringValue(); }
         }
 
-        public string SuiteValue
+        public string SuitValue
         {
             get { return this.GetSuiteValue(); }
         }
@@ -28,10 +28,10 @@ namespace PokerTable2.Game.Models
             get { return this.GetName(); }
         }
 
-        public Card(int value, Suites suite)
+        public Card(int value, Suites suit)
         {
             this.Value = value;
-            this.Suite = suite;
+            this.Suit = suit;
         }
 
         private string GetStringValue()
@@ -53,7 +53,7 @@ namespace PokerTable2.Game.Models
 
         private string GetSuiteValue()
         {
-            switch (Suite)
+            switch (Suit)
             {
                 case Suites.Hearts:
                     return "H";
